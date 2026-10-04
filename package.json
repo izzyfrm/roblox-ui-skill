@@ -1,0 +1,42 @@
+{
+  "name": "roblox-ui-skill",
+  "version": "0.1.0",
+  "description": "A Roblox UI/UX skill for Claude, Codex, and coding agents.",
+  "license": "MIT",
+  "author": "Izzy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izzyfrm/roblox-ui-skill.git"
+  },
+  "homepage": "https://github.com/izzyfrm/roblox-ui-skill#readme",
+  "bugs": {
+    "url": "https://github.com/izzyfrm/roblox-ui-skill/issues"
+  },
+  "keywords": [
+    "roblox",
+    "roblox-studio",
+    "ui",
+    "ux",
+    "ai",
+    "skill",
+    "claude",
+    "codex",
+    "luau",
+    "game-ui"
+  ],
+  "bin": {
+    "roblox-ui-skill": "bin/roblox-ui-skill.js"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "rules/",
+    "styles/",
+    "examples/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
