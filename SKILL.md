@@ -1,3 +1,8 @@
+---
+name: roblox-ui
+description: Opinionated Roblox UI/UX guidance for Claude, Codex, and coding agents building polished, responsive, game-specific interfaces without generic AI-generated design patterns.
+---
+
 # Roblox UI Skill
 
 A design and engineering skill for creating professional Roblox interfaces.
@@ -360,3 +365,16 @@ The UI matches the game.
 The result is visibly better than the previous version.
 
 If the redesign is not clearly an improvement, continue refining it.
+
+
+## Supporting Rules
+
+Use these files when relevant:
+
+- `rules/design.md` for hierarchy, spacing, typography, surfaces, and visual consistency.
+- `rules/responsive.md` for desktop, mobile, tablet, and console behavior.
+- `rules/interaction-motion.md` for button states, tweens, focus, feedback, and progress.
+- `rules/debugging.md` for auditing and repairing existing Roblox UI.
+- `rules/anti-slop.md` before final delivery to catch generic AI-generated UI patterns.
+- `styles/presets.md` when choosing a visual direction for a game genre.
+- `examples/prompts.md` for concise usage examples.
